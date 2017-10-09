@@ -1,9 +1,13 @@
+/*
+ * Copyright (C) 2017 Miles Talmey.
+ * Distributed under the MIT License (license terms are at http://opensource.org/licenses/MIT).
+ */
 package com.emarte.regurgitator.extensions.web;
 
-public class WebConfigConstants {
-	public static final String HOST = "host";
-	public static final String PORT = "port";
-	public static final String USERNAME = "username";
-	public static final String PASSWORD = "password";
-	public static final String PATH_PREFIX = "path-prefix";
+public interface WebConfigConstants {
+	String HOST = "host";
+	String PORT = "port";
+	String USERNAME = "username";
+	String PASSWORD = "password";
+	String PATH_PREFIX = "path-prefix";
 }
