@@ -86,7 +86,7 @@
             </distributionManagement>
         </profile>
     </profiles>
-    
+
     <dependencies>
         <dependency>
             <groupId>uk.emarte.regurgitator</groupId>
